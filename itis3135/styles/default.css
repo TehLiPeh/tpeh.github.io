@@ -1,0 +1,37 @@
+body
+{
+    font-family: Arial;
+    background-color: #b8dfe6;
+    margin: 50px;
+}
+
+img 
+{
+    border: 2px solid black;
+    width: 100%;
+}
+
+h1 
+{
+    color: blue;
+    text-align: center;
+}
+
+h2 
+{
+    color: red;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+} 
+
+.valiPic 
+{
+    float: left;
+    margin: 15px;
+    width: 50px;
+}
+
