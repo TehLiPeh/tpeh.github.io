@@ -1,3 +1,4 @@
+/*index.html*/
 body
 {
     font-family: Arial;
@@ -34,4 +35,28 @@ nav {
     margin: 15px;
     width: 50px;
 }
+
+/*tables.html*/
+table{
+    margin: 0px auto;
+}
+
+th, td 
+{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h3 
+{
+    text-align: center;
+}
+
+ol 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
 
