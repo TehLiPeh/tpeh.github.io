@@ -1,26 +1,38 @@
-/*index.html*/
+/*index.html & introduction.html*/
 body
 {
-    font-family: Arial;
-    background-color: #b8dfe6;
+    font-family: 'Staatliches', cursive;
+    background-color: #f0f7f2;
     margin: 50px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+p
+{
+    text-align: center;
+    color: #383838;
 }
 
 img 
 {
-    border: 2px solid black;
     width: 100%;
 }
 
 h1 
 {
-    color: blue;
+    font-family: 'Passion One', cursive;
+    color: #0C1618;
     text-align: center;
 }
 
 h2 
 {
-    color: red;
+    font-family: 'Luckiest Guy', cursive;
+    color: #25452e;
     text-align: center;
 }
 
@@ -29,18 +41,26 @@ nav {
     margin: 10px;
 } 
 
-.valiPic 
+li
 {
-    float: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
+    color: #383838;
 }
+
+
 
 /*footer*/
 footer{
     text-align: center;
 }
+
+.valiPic 
+{
+    float: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
 /*tables.html*/
 table{
     margin: 0px auto;
@@ -52,7 +72,7 @@ th, td
     padding: 10px;
 }
 
-h3 
+.tables_heading 
 {
     text-align: center;
 }
