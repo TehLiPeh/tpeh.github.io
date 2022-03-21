@@ -1,12 +1,16 @@
 /*body*/
 body
 {
-    background-color: #FFEEDB;
+    background-color: #000000;
+   /* background-color: #FFEEDB; */
+   /*background-image: url("background.jpg");*/
 }
 
 #top_nav 
 {
-    background-color: #101419;
+    
+    /* background-color: #101419; */
+    background-color: #F7FE72;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,12 +27,18 @@ a
 {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    color: #FFFFFA;
+    /* color: #FFFFFA; */
+    color: #000000;
 }
 
 a:hover 
 {
-    color: #ED254E;
+    color: #FF6F67;
+}
+
+.yellow_a 
+{
+    color: #F7FE72;
 }
 
 p
@@ -40,36 +50,89 @@ p
 .centered_p
 {
     text-align: center;
-    color: #e65449;
+    color: #FFC7C4;
 }
 
 img 
 {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h1 
 {
     font-family: 'Staatliches', cursive;
-    color: #0C1618;
+    color: #D0241B;
     text-align: center;
 }
 
 h2
 {
     font-family: 'Passion One', cursive;
-    color: #25452e;
+    color: #F7FE72;
     text-align: center;
 }
 
 li
 {
-    color: #383838;
+    color: #FFC7C4;
 }
 
 #click
 {
     color: #02040F;
+}
+
+/*contract.html*/
+.contract_p
+{
+    color: #FFC7C4;
+}
+
+/*tables.html*/
+table{
+    margin: 0px auto;
+    border-collapse: collapse;
+    background-color: #F7FE72;
+}
+
+th, td 
+{
+    border: 2px solid #000000;
+    padding: 10px;
+    color: #000000;
+}
+
+.tables_heading 
+{
+    text-align: center;
+}
+
+ol 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+h3
+{
+    color: #F7FE72;
+    text-align: center;
+}
+
+/*form.html*/
+form
+{
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: #F7FE72;
+
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /*footer*/
@@ -89,58 +152,4 @@ footer
     margin-left: auto;
     margin-right: auto;
     width: 60px;
-}
-
-/*intro.html*/
-#intro_li
-{
-    color: #5E565A; 
-}
-
-/*contract.html*/
-.contract_p
-{
-    color: #5E565A;
-}
-
-/*tables.html*/
-table{
-    margin: 0px auto;
-    border-collapse: collapse;
-}
-
-th, td 
-{
-    border: 2px solid black;
-    padding: 10px;
-}
-
-.tables_heading 
-{
-    text-align: center;
-}
-
-ol 
-{
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
-
-h3
-{
-    color: #3e9448;
-    text-align: center;
-}
-
-/*form.html*/
-form
-{
-    text-align: center;
-    border: 1px solid black;
-    padding: 20px;
-    background-color: rgb(185, 185, 247);
-
-    margin-left: 200px;
-    margin-right: 200px;
 }
