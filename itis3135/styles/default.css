@@ -2,14 +2,10 @@
 body
 {
     background-color: #000000;
-   /* background-color: #FFEEDB; */
-   /*background-image: url("background.jpg");*/
 }
 
 #top_nav 
 {
-    
-    /* background-color: #101419; */
     background-color: #F7FE72;
     text-align: center;
     padding-top: 20px;
@@ -27,7 +23,6 @@ a
 {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    /* color: #FFFFFA; */
     color: #000000;
 }
 
@@ -58,7 +53,6 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h1 
@@ -85,11 +79,13 @@ li
     color: #02040F;
 }
 
+
 /*contract.html*/
 .contract_p
 {
     color: #FFC7C4;
 }
+
 
 /*tables.html*/
 table{
@@ -146,10 +142,4 @@ footer
     color: #828A95;
 }
 
-.valiPic 
-{
-    float: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60px;
-}
+
