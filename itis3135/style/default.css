@@ -1,0 +1,39 @@
+h1{
+    background-color: rgb(59, 58, 58);
+}
+h1{
+    font-family: Papyrus;
+}
+h2{
+    background-color: blue;
+}
+h2{
+    font-family: "Comic Sans Ms";
+}
+h2{margin-left: 50px;}
+ul {
+    text-align: center;
+}
+#red{
+border: 50px solid green;
+}
+#red{
+background-color: red;
+}
+#blue{
+color: blue;
+}
+#blue {
+    background-color: green;
+}
+#black{
+    color: black;
+}
+#green  
+{
+    background-color: green;}
+p{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
