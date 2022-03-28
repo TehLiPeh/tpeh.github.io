@@ -146,4 +146,10 @@ footer
     color: #828A95;
 }
 
+#validator 
+{
+    display: flex;
+    justify-content: center;
+}
+
 
