@@ -26,4 +26,23 @@ function welcome() {
     document.getElementById("displayMessage").innerHTML = message;
 }
 
+function one() {
+
+}
+
+function two() {
+    
+}
+
+function three() {
+    
+}
+
+function four() {
+    
+}
+
+function five() {
+    
+}
 
