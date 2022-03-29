@@ -135,7 +135,12 @@ form
 }
 
 /*firstscript.html*/
-
+#kings-problems 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
 
 /*footer*/
 footer
