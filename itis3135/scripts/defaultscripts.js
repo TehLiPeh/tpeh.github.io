@@ -26,6 +26,7 @@ function welcome() {
     document.getElementById("displayMessage").innerHTML = message;
 }
 
+//The king's problems
 function one() {
 
 }
