@@ -16,7 +16,6 @@ h1 {
 }
 
 .nav-box {
-    border: 1px solid black;
     padding: 10px;
     background-color: azure;
 }
@@ -35,14 +34,17 @@ a:hover {
     color: white;
 }
 /*main*/
+
+.h-container {
+    display: flex;
+    justify-content: center;
+}
 h2, h3 {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 650px 5px 650px;
+    width: 150px;
     color: #F6EFEE;
     background-color: rgb(0, 0, 0);
-    border: 1px solid black;
 }
 
 h4 {
@@ -51,7 +53,7 @@ h4 {
 
 /*center image*/
 .center-img {
-    border: 5px solid #202C39;
+    border: 2px solid #202C39;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,41 +65,57 @@ h4 {
     margin-left: 25%;
     margin-right: 25%;
     padding: 5px;
+    border: 1px solid rgb(61, 61, 61);
+    background-color: rgb(247, 234, 221);
+}
+
+/*img container*/
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 /*3 img side by side*/
-.float-child {
+.pic-row1 {
+    width: 300px;
+    margin: 5px;
     text-align: center;
-    width: 33%;
-    float: left;
 }
 
-.box-pic {
-    border: 2px solid #202C39;
-    background-color: #2c2c2c;
-    padding: 10px;
+.pic-row2 {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pic-row3 {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
 }
 
 /*2 img side by side*/
-.border-flex {
-    display: flex;
+.box1 {
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
 }
 
-.float-child2 {
-    flex: 1;
+.box2 {
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
     text-align: center;
-    padding: 5px;
 }
 
 /*casualties*/
 .center-p  {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 650px 5px 650px;
     background-color: rgb(207, 207, 207);
+    width: 200px;
 }
-
 
 /*footer*/
 footer {
@@ -111,22 +129,6 @@ footer {
 #validator {
     display: flex;
     justify-content: center;
-}
-
-
-
-/*borders*/
-.border-black {
-    border: 2px solid black;
-    margin: 5px;
-}
-
-.border-red {
-    border: 3px solid red;
-}
-
-.border-blue {
-    border: 3px solid blue;
 }
 
 
