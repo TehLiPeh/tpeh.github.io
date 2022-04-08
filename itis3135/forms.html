@@ -21,31 +21,37 @@
                 <a href = "CRAPpY.html">CRaPpy</a>
                 <a href = "firstscript.html">First JavaScript</a>
                 <a href = "polygons.html">Polygons</a>
+                <a href = "calcprac.html">Calculator Attempt</a>
+                <a href = "calculatorfcc.html">Calculator FCC</a>
                 <a href = "hobby/who.html">Hobby Project</a>
             </nav>
             <h1>👑 Teh Li Peh 👑 ITIS 3135 👑 King Akita 👑</h1>
         </header>
+
         <main>
             <h2>Forms</h2>
-            <div class = "container">
+            <div id = "form-box">
                 <form>
                     <lable for = "name">Name:</lable>
-                    <input type = "text">
-                    <lable for = "phone">Phone Number</lable>
-                    <input type = "text">
-                    <lable for = "email">Email Address</lable>
-                    <input type = "text">
-
+                    <input id = "name" placeholder = "Your Name" type = "text">
+                    <lable for = "phone">Phone Number:</lable>
+                    <input id = "phone-num" placeholder = "Your Phone Number" type = "text">
+                    <lable for = "email">Email Address:</lable>
+                    <input id = "email" placeholder = "Your Email" type = "text">
+                
                     <lable for = "check">Subscribe</lable>
-                    <input type = "checkbox">
-                    <p>How should we contact you?</p>
-                    <lable for = "contact_text">Text</lable>
-                    <input type = "radio">
-                    <lable for = "contact_email">Email</lable>
-                    <input type = "radio">
+                    <input class = "border" type = "checkbox">
 
+                    <p id = "black-p">Do you like my website?</p>
+
+                    <lable for = "yes">Yes</lable>
+                    <input class = "border" type = "radio">
+
+                    <lable for = "no">No</lable>
+                    <input class = "border" type = "radio">
+                    
                     <label for = "drop">Select your favorite hobby</label>
-                    <select name = "drop">
+                    <select id = "drop-box" name = "drop">
                         <option value = "dancing">Dancing</option>
                         <option value = "gaming">Gaming</option>
                         <option value = "music">Music</option>
@@ -53,11 +59,12 @@
                         <option value = "read">Reading</option>
                     </select>
 
-                    <input type = "submit" value = "submit">
-                    <input type = "reset" value = "reset">
+                    <input class = "small-box" type = "submit" value = "submit">
+                    <input class = "small-box" type = "reset" value = "reset">
                 </form>
             </div>
         </main>
+
         <footer>
             <nav>
                 <a class = "a_foot" href = "https://webpages.charlotte.edu/tpeh">🦴 Charlotte.edu 🦴 </a>
