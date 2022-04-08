@@ -1,0 +1,132 @@
+body {
+    background-color: #e7e6e3;
+}
+
+/*header*/
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px 20px 50px;
+    background-color: black;
+}
+
+.nav-box {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: azure;
+}
+
+.nav-box:hover {
+    background-color: red;
+}
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+/*main*/
+h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 650px 5px 650px;
+    color: #F6EFEE;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*center image*/
+.center-img {
+    border: 5px solid #202C39;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*paragraphs*/
+.para {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+}
+
+/*3 img side by side*/
+.float-child {
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+.box-pic {
+    border: 2px solid #202C39;
+    background-color: #2c2c2c;
+    padding: 10px;
+}
+
+/*2 img side by side*/
+.border-flex {
+    display: flex;
+}
+
+.float-child2 {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+/*casualties*/
+.center-p  {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 650px 5px 650px;
+    background-color: rgb(207, 207, 207);
+}
+
+
+/*footer*/
+footer {
+    width: auto;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#validator {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*borders*/
+.border-black {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.border-red {
+    border: 3px solid red;
+}
+
+.border-blue {
+    border: 3px solid blue;
+}
+
+
