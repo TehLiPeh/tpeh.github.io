@@ -1,11 +1,9 @@
-/*body*/
-body
-{
+/*nav*/
+body {
     background-color: #000000;
 }
 
-#top_nav 
-{
+#top_nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 35px 20px 35px;
@@ -14,146 +12,148 @@ body
 
 }
 
-main
-{
-    margin-left: 130px;
-    margin-right: 130px;
-}
-
-a
-{
+a {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: #000000;
 }
 
-a:hover 
-{
+/*main*/
+main {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+a:hover {
     color: #FF6F67;
 }
 
-.yellow_a 
-{
+.yellow_a {
     color: #F7FE72;
 }
 
-p
-{
-
+p {
+    font-family: 'Oswald', sans-serif;
     color: #828A95;
 }
 
-.centered_p
-{
+#centered_p {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #FFC7C4;
 }
 
-img 
-{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 
-{
+h1 {
     font-family: 'Staatliches', cursive;
     color: #D0241B;
     text-align: center;
 }
 
-h2
-{
+h2 {
     font-family: 'Passion One', cursive;
     color: #F7FE72;
     text-align: center;
 }
 
-li
-{
-    color: #FFC7C4;
+li {
+    color: #D0241B;
 }
 
-#click
-{
+#click {
     color: #02040F;
 }
 
+/*introduction.html*/
+.intro_li {
+    font-family: 'Oswald', sans-serif;
+    color: #D0241B;
+}
+
+.container {
+    border: solid 3px #ffffff;
+    background-color: #F7FE72;
+}
 
 /*contract.html*/
-.contract_p
-{
-    color: #FFC7C4;
+.contract_p {
+    color: #D0241B;
 }
 
 
 /*tables.html*/
-table{
+table {
     margin: 0px auto;
     border-collapse: collapse;
     background-color: #F7FE72;
+    border: 4px solid #D0241B;
 }
 
-th, td 
-{
+th, td {
+    font-family: 'Oswald', sans-serif;
     border: 2px solid #000000;
     padding: 10px;
     color: #000000;
 }
 
-.tables_heading 
-{
+.tables_heading {
     text-align: center;
 }
 
-ol 
-{
+ol {
+    font-family: 'Oswald', sans-serif;
     margin-left: auto;
     margin-right: auto;
     display: table;
 }
 
-h3
-{
+h3 {
     color: #F7FE72;
     text-align: center;
 }
 
 /*form.html*/
-form
-{
+form {
     text-align: center;
-    border: 1px solid #000000;
     padding: 20px;
-    background-color: #F7FE72;
-
+    
     margin-left: 200px;
     margin-right: 200px;
 }
 
+/*web.html*/
+ul {
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    color: #D0241B;   
+}
+
 /*firstscript.html*/
-#kings-problems 
-{
+#kings-problems {
     display: flex;
     justify-content: space-between;
-    padding: 0px 25px 0px 25px;
+    padding: 0px 30px 0px 30px;
 }
 
 /*footer*/
-footer
-{
+footer {
     text-align: center;
     padding: 10px;
 }
 
-.a_foot
-{
+.a_foot {
     color: #828A95;
 }
 
-#validator 
-{
+#validator {
     display: flex;
     justify-content: center;
 }
