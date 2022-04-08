@@ -18,11 +18,12 @@ a {
     color: #000000;
 }
 
-/*main*/
+/*main
 main {
     margin-left: 130px;
     margin-right: 130px;
 }
+*/
 
 a:hover {
     color: #FF6F67;
@@ -69,22 +70,41 @@ li {
     color: #02040F;
 }
 
-/*introduction.html*/
+/*introduction lists*/
 .intro_li {
     font-family: 'Oswald', sans-serif;
     color: #D0241B;
 }
 
-.container {
-    border: solid 3px #ffffff;
+/*big yellow containers*/
+.big-container {
+    border: solid 3px white;
+    border-radius: 5px;
     background-color: #F7FE72;
+    width: 70%;
+    padding: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*small yellow container*/
+.small-container {
+    border: solid 3px white;
+    border-radius: 5px;
+    background-color: #F7FE72;
+    width: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*contract.html*/
 .contract_p {
     color: #D0241B;
 }
-
 
 /*tables.html*/
 table {
@@ -107,8 +127,10 @@ th, td {
 
 ol {
     font-family: 'Oswald', sans-serif;
+    /*
     margin-left: auto;
     margin-right: auto;
+    */
     display: table;
 }
 
@@ -119,11 +141,43 @@ h3 {
 
 /*form.html*/
 form {
+    padding: 10px;
+    color:black;
+}
+
+input {
+    width: 100%;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#form-box {
+    background-color: #F7FE72;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 30%;
+}
+
+.center-stuff {
     text-align: center;
-    padding: 20px;
-    
-    margin-left: 200px;
-    margin-right: 200px;
+    border: solid 3px rgb(146, 0, 0);
+}
+
+#black-p {
+    color: black;
+}
+
+.small-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 /*web.html*/
@@ -143,7 +197,6 @@ h4 {
     padding: 0px 30px 0px 30px;
 }
 
-
 /*polygons*/
 #center-container {
     text-align: center;
@@ -153,7 +206,69 @@ h4 {
     width: 100px;
     padding: 10px;
     background-color: white;
+    border-radius: 5px;
 }
+
+#polygons:hover {
+    background-color: #D0241B;
+    color: white;
+}
+
+/*calculator prac*/
+#calc-border {
+    border: 2px solid black;
+    background-color: #F7FE72;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 300px;
+
+}
+
+#display {
+    padding: 30px;
+    border: 3px solid black;
+}
+
+#row1 {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#row2 {
+    border: 1px solid rgb(38, 0, 255);
+}
+
+#row3 {
+    border: 1px solid rgb(9, 255, 0);
+}
+
+.keys {
+    border: 1px solid black;
+    padding: 10px;
+    width: 30px;
+    
+}
+
+.keys:hover {
+    background-color: #D0241B;
+    color: white;
+}
+
+/*calcuulator fcc*/
+.calc-keys {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-keys > * {
+    background-color: white;
+    padding: .5em 1.25em;
+    position: relative;
+    text-align: center;
+}
+
 
 /*footer*/
 footer {
