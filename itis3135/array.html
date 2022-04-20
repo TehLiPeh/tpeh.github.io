@@ -3,6 +3,7 @@
 	<head>
 		<meta charset = "UTF-8">
 		<link href = "styles/default.css" rel = "stylesheet" type = "text/css">
+        <script src = "scripts/arrays.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
@@ -30,6 +31,16 @@
         </header>
 		<main>
 			<h2>Arrays</h2>
+            <div class = "small-container">
+                <p>Employee:</p>
+                <select onclick = "getEmployees()" name = "dropdown" id = "dropdown">
+                    <option>Select an Employee</option>
+                </select>
+
+                <button class = "arr-but" onclick = "addSalary()">Add Salary</button>
+                <button class = "arr-but" onclick = "displayResult()">Display Result</button>
+                <button class = "arr-but" onclick = "displaySalary()">Display Salary</button>
+            </div>
 		</main>
 		<footer>
             <nav>
