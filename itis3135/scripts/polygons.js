@@ -3,43 +3,43 @@ function polygons(numSides) {
     switch (numSides) {
         case 1: 
             return "Henagon";
-            break;
+            //break;
 
         case 2: 
             return "Digon";
-            break;
+            //break;
 
         case 3: 
             return "Trigon";
-            break;
+            //break;
 
         case 4: 
             return "Tetragon";
-            break;
+            //break;
 
         case 5: 
             return "Pentagon";
-            break;
+            //break;
 
         case 6: 
             return "Hexagon";
-            break;
+            //break;
 
         case 7: 
             return "Heptagon";
-            break;
+            //break;
 
         case 8: 
             return "Octagon";
-            break;
+            //break;
 
         case 9: 
             return "Nonagon";
-            break;
+            //break;
 
         case 10: 
             return "Decagon";
-            break;
+            //break;
 
         default:
             break;
@@ -52,10 +52,14 @@ function polygons(numSides) {
  //   alert("Num is " + numSides);
 //}
 
+
 function getPrompt() {
     let num = parseInt(prompt("Enter a number from 1-10."));
     let numEntered= validateNum(num);
     let result = polygons(numEntered);
+    if (!result) {
+        return;
+    }
     alert(result);
 }
 
