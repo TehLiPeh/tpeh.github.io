@@ -37,9 +37,13 @@
                     <option>Select an Employee</option>
                 </select>
 
-                <button class = "arr-but" onclick = "addSalary()">Add Salary</button>
-                <button class = "arr-but" onclick = "displayResult()">Display Result</button>
-                <button class = "arr-but" onclick = "displaySalary()">Display Salary</button>
+                <label for = "salary">Salary:</label>
+                <input type = "number" id = "salary-value" placeholder = "Enter a salary">
+                <button class = "arr-button" id = "add-salary" onclick = "addSalary()">Add Salary</button>
+
+                <button class = "arr-button" id = "display-result" onclick = "displayResult()">Display Result</button>
+                <button class = "arr-button" id = "display-salary" onclick = "displaySalary()">Display Salary</button>
+                <p id = "max-result"></p>
             </div>
 		</main>
 		<footer>
