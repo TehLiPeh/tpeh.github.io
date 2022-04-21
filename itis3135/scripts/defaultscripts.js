@@ -3,16 +3,16 @@ function scriptTest() {
 }
 
 function displayDateTime() {
-    var currentDate = new Date();
-    var year = currentDate.getFullYear();
-    var month = currentDate.getMonth();
-    var day = currentDate.getDay();
-    var date = currentDate.getDate();
-    var hours = currentDate.getHours();
-    var minutes = currentDate.getMinutes();
+    let currentDate = new Date();
+    let year = currentDate.getFullYear();
+    let month = currentDate.getMonth();
+    let day = currentDate.getDay();
+    let date = currentDate.getDate();
+    let hours = currentDate.getHours();
+    let minutes = currentDate.getMinutes();
 
-    var dayArray = new Array ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun");
-    var monthArray = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    let dayArray = new Array ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun");
+    let monthArray = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
     
     let displayDateTime = "Today is "+ hours + ":" + minutes +  " on "+ dayArray[day] + ", " + date + " " +  monthArray[month] + ", " + year;
     document.getElementById("date").innerHTML = displayDateTime;
@@ -26,24 +26,65 @@ function welcome() {
     document.getElementById("displayMessage").innerHTML = message;
 }
 
-//The king's problems
 function one() {
+    let randomNum = Math.floor(Math.random()*10) + 1;
+    let guessedNumber = parseInt(prompt("Guess the Correct Number from 1 - 10"));
 
+    if (randomNum == guessedNumber) {
+        alert("Great Job, you guessed it!");
+    }
+    else {
+        alert("Try again. Spam one number is you are stuck.");
+        one();
+    }
 }
 
 function two() {
+    let question = parseInt(prompt("Sarah is twice as old as her youngest brother. If the difference between their ages is 15 years. How old is her youngest brother?"));
     
+    if (question == 15 ) {
+        alert("Correct!");
+    }
+    else {
+        alert("Incorrect!");
+        two();
+    }
 }
 
 function three() {
+    let num1 = prompt("Enter a number");
+    let num2 = prompt("Enter another number");
+    let num3 = prompt("Enter another number");
     
+    let total = parseInt(num1) + parseInt(num2) + parseInt(num3);
+    let avg = total / 3;
+    alert("The average number you have entered is " + avg);
 }
 
 function four() {
-    
+    let riddlePrompt = prompt("What has a head and a tail, but no body?");
+
+    if (riddlePrompt == "coin" || riddlePrompt == "Coin" || riddlePrompt == "Coins" || riddlePrompt == "coins") {
+        alert("Correct!");
+    }
+    else {
+        alert("Incorrect!");
+        four()
+    }
 }
 
 function five() {
-    
+    let string = "Wow!" + name + "You made it! Feel free to explore more."
+    let arr = string.split("");
+    let timer;
+
+    if (arr.length > 0) {
+        document.getElementById("lastMessage").innerHTML += arr.shift();
+    }
+    else {
+        clearTimeout(timer);
+    }
+    loopTimer = setTimeout('frameLooper()', 70);
 }
+//https://codepen.io/lscsaqib/pen/xwPwmY
 
