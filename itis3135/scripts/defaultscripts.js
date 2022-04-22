@@ -22,7 +22,7 @@ function welcome() {
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
 
-    let message = "The King Akita welcomes you, " + name + "! We're glad you are doing " + feeling + ".";
+    let message = "The King Akita welcomes you, " + name + "! We're glad you are feeling " + feeling + ".";
     document.getElementById("displayMessage").innerHTML = message;
 }
 
@@ -74,17 +74,16 @@ function four() {
 }
 
 function five() {
-    let string = "Wow!" + name + "You made it! Feel free to explore more."
-    let arr = string.split("");
-    let timer;
+    let string = "Wow, You made it! Feel free to explore more.";
+    let array = string.split("");
 
-    if (arr.length > 0) {
-        document.getElementById("lastMessage").innerHTML += arr.shift();
-    }
-    else {
-        clearTimeout(timer);
-    }
-    loopTimer = setTimeout('frameLooper()', 70);
+    function animate() {
+        if (array.length > 0 ) 
+        document.getElementById("lastMessage").innerHTML += array.shift(); 
+        clearTimeout(run); 
+        var run = setTimeout(animate, 50);
+    };
+    animate();
 }
-//https://codepen.io/lscsaqib/pen/xwPwmY
-
+//https://codepen.io/LaithHaleem/pen/wzyMBd
+//I wanted to try something cool but I needed help
