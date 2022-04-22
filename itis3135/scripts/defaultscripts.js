@@ -74,7 +74,7 @@ function four() {
 }
 
 function five() {
-    let string = "Wow, You made it! Feel free to explore more.";
+    let string = "Wow, You made it! Feel free to explore more of my webpages.";
     let array = string.split("");
 
     function animate() {
