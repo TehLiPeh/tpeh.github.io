@@ -38,29 +38,28 @@
                     </script>
                 </h3>
                 <div class = "small-container">
-                    <form>
+                    <div id = "add-padding">
                         <label for = "name">Name: </label>
                         <input type = "text" placeholder = "Your Name" name = "name" id = "name">
 
                         <label for = "feeling">How are you feeling?</label>
                         <input type = "text" name = "feeling" id = "feeling">
 
-                        <button onclick = "welcome()">Submit</button>
+                        <button class = "submit-buttons" onclick = "welcome()">Submit</button>
                         <p id = "displayMessage"></p>
-                    </form>
+                    </div>
                 </div>
+                
                 <h3>Play with these Buttons</h3>
                 <div class = "small-container">
-                    <form>
-                        <div id = "kings-problems">
-                            <button onclick = "one()">Guessing Game</button>
-                            <button onclick = "two()">Math Question</button>
-                            <button onclick = "three()">Calculating Average</button>
-                            <button onclick = "four()">Simple Riddle</button>
-                            <button onclick = "five()">The Last Button</button>
-                        </div>
-                        <p id = "lastMessage"></p>
-                    </form>
+                    <div id = "kings-problems">
+                        <button class = "buttons" onclick = "one()">Guessing Game</button>
+                        <button class = "buttons" onclick = "two()">Math Question</button>
+                        <button class = "buttons" onclick = "three()">Calculating Average</button>
+                        <button class = "buttons" onclick = "four()">Simple Riddle</button>
+                        <button class = "buttons" onclick = "five()">The Last Button</button>
+                    </div>
+                    <p id = "lastMessage"></p>
                 </div>
 		</main>
         <script src = "scripts/HTMLInclude.js"></script>
