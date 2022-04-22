@@ -192,9 +192,44 @@ h4 {
 
 /*firstscript.html*/
 #kings-problems {
+    margin: 10px;
     display: flex;
     justify-content: space-between;
     padding: 0px 30px 0px 30px;
+}
+
+#displayMessage {
+    color: #D0241B; 
+}
+
+#lastMessage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #D0241B;  
+}
+
+#add-padding {
+    padding: 15px;
+}
+
+.five-buttons {
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.submit-buttons {
+    width: 90px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.submit-buttons:hover {
+    background-color: #D0241B;
+    color: white;
 }
 
 /*polygons*/
@@ -202,20 +237,16 @@ h4 {
     text-align: center;
 }
 
-#polygons {
+.buttons {
     width: 100px;
     padding: 10px;
     background-color: white;
     border-radius: 5px;
 }
 
-#polygons:hover {
+.buttons:hover {
     background-color: #D0241B;
     color: white;
-}
-
-#displayMessage {
-    color: black;
 }
 
 /*calculator prac*/
