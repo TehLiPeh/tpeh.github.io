@@ -1,30 +1,85 @@
-/*nav*/
 body {
     background-color: #000000;
 }
 
-#top_nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 35px 20px 35px;
-
-    background-color: #F7FE72;
-
-}
-
+/*nav*/
 a {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: #000000;
 }
 
-/*main
-main {
-    margin-left: 130px;
-    margin-right: 130px;
+.nav-container {
+    display: flex;
+    justify-content: center;
 }
-*/
 
+.top-nav {
+    overflow: hidden;
+    height: 80px;
+    background-color: #F7FE72;
+}
+
+.top-nav a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.top-nav li {
+    list-style: none;
+}
+
+.top-nav a, .dropdown, .drop-button {
+    margin: 15px 20px 10px 20px;
+    border: black solid 1px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .drop-button {
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.top-nav a:hover, .dropdown:hover .drop-button {
+    background-color: #D0241B;
+    color: white;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.drop-content a {
+    float: none;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    width: 100px;
+    margin: 0;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+/*main*/
 a:hover {
     color: #FF6F67;
 }
@@ -42,6 +97,10 @@ p {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #FFC7C4;
+}
+
+#akita {
+    border-radius: 50%;
 }
 
 img {
@@ -161,7 +220,7 @@ input {
     margin-right: auto;
     border: solid 3px rgb(255, 255, 255);
     border-radius: 5px;
-    width: 30%;
+    width: 20%;
 }
 
 .center-stuff {
@@ -171,6 +230,13 @@ input {
 
 #black-p {
     color: black;
+    text-align: center;
+}
+
+.form-txt {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .small-box {
@@ -180,9 +246,28 @@ input {
     width: 30%;
 }
 
+.yes-no {
+    margin: 5px;
+    text-align: center;
+    width: 50px;
+}
+
+
+#drop {
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#yes-no-container {
+    display: flex;
+    justify-content: center;
+}
+
 /*web.html*/
 ul {
-    
     font-family: 'Oswald', sans-serif;
 }
 
@@ -295,14 +380,6 @@ h4 {
     text-align: center;
 }
 
-.calc-display {
-    background-color: #FFC7C4;
-    color: black;
-    font-size: 2em;
-    padding: 0.5em 0.75em;
-    text-align: right;
-}
-
 .calculator {
     border: 5px solid #F7FE72;
     border-radius: 12px;
@@ -311,6 +388,13 @@ h4 {
     margin-top: 2em;
     max-width: 15em;
     overflow: hidden;
+}
+
+.output {
+    background-color: #FFC7C4;
+    color: black;
+    padding: 2em 0.75em;
+    text-align: right;
 }
 
 .calc-keys {
@@ -349,11 +433,13 @@ h4 {
     grid-row: 2 / span 4;
 }
 
+
 /*arrays.html*/
 
 
 /*footer*/
 footer {
+    margin: 5px;
     text-align: center;
     padding: 10px;
 }

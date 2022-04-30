@@ -2,13 +2,14 @@ var person = [];
 var salaries = [];
 
 function addSalary() {
-    let num = parseInt(document.getElementById("salary-value").value);
+    let num = parseFloat(document.getElementById("salary-value").value);
 
     if (num >= 0) {
-        num = parseInt(num);
+        num = parseFloat(num);
         salaries.push(num);
         document.getElementById("salary-value").value;
-        alert(num);
+        //Test
+        alert(person + " salary is " + num);
     }
     else {
         alert("Please enter a valid salary value");
@@ -18,21 +19,21 @@ function addSalary() {
 
 function displayResult() {
     //Find the average
-    var avg = 0;
-    var sum = 0;
+    let total = 0;
+    let sum = 0;
     for (i = 0; i < salaries.length; i++) {
         sum += salaries[i];
     }
     avg = sum / salaries.length;
 
     //Find the Max 
-    const max = Math.max();
-    let result = "The max score is " + avg;
-    for (i = 0; i < salaries.length; i++) {
-        if (avg == max) {
-            document.getElementById("max-result").innerHTML = result;
-        }
-    }
+    //const max = Math.max();
+    let result = "The max salary is " + avg;
+    // for (i = 0; i < salaries.length; i++) {
+    //     if (avg == max) {
+    //         document.getElementById("max-salary").innerHTML = result;
+    //     }
+    // }
 }
 
 function displaySalary() {
@@ -41,13 +42,13 @@ function displaySalary() {
 
 //Create dropdown
 function getEmployees() {
-    var select = document.getElementById("dropdown");
-    var options = [
+    let select = document.getElementById("dropdown");
+    let person = [
         'Ryan Jackson', 'Marian Rivera', 'Tony Watson', 'Peter Clark', 'Amy Watson', 'Wong Wei', 'Ryu Jack'
     ];
     
-    for (var i = 0; i < options.length; i++) {
-        var names = options[i];
+    for (var i = 0; i < person.length; i++) {
+        let names = person[i];
         const createOption = document.createElement("option");
         createOption.textContent = names;
         createOption.names = names;

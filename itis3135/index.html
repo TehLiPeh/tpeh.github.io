@@ -10,25 +10,44 @@
 	</head>
 	<body>
         <header>
-            <nav id = "top_nav">
-                <a href = "index.html">Home</a>
-                <a href = "introduction.html">Introduction</a>
-                <a href = "contract.html">Contract</a>
-                <a href = "tables.html">HTML Tables</a>
-                <a href = "forms.html">Forms</a>
-                <a href = "kingakita/brand.html">Brand</a>
-                <a href = "webevaluations.html">Website Evaluations</a>
-                <a href = "CRAPpY.html">CRaPpy</a>
-                <a href = "firstscript.html">First JavaScript</a>
-                <a href = "polygons.html">Polygons</a>
-                <a href = "calcprac.html">Calculator Attempt</a>
-                <a href = "calculatorfcc.html">Calculator FCC</a>
-                <a href = "hobby/who.html">Hobby Project</a>
-                <a href = "array.html">Arrays</a>
+
+            <nav class = "top-nav">
+                <div class = "nav-container">
+                        <a href = "index.html">Home</a>
+                        <a href = "introduction.html">Introduction</a>
+                        <a href = "contract.html">Contract</a>
+                    <div class = "dropdown">
+                        <button class = "drop-button">HTML/CSS
+                            <i class = "fa fa-caret-down"></i>
+                        </button>
+                        <div class = "drop-content">
+                            <a href = "tables.html">HTML Tables</a>
+                            <a href = "forms.html">Forms</a>
+                            <a href = "kingakita/brand.html">Brand</a>
+                            <a href = "webevaluations.html">Website Evaluations</a>
+                            <a href = "CRAPpY.html">CRaPpy</a>
+                        </div>
+                    </div>
+                    <div class = "dropdown">
+                        <button class = "drop-button">JavaScripts
+                            <i class = "fa fa-caret-down"></i>
+                        </button>   
+                        <div class = "drop-content">
+                            <a href = "firstscript.html">First JavaScript</a>
+                            <a href = "polygons.html">Polygons</a>
+                            <a href = "calcprac.html">Calculator Attempt</a>
+                            <a href = "calculatorfcc.html">Calculator FCC</a>
+                            <a href = "array.html">Arrays</a>
+                        </div>
+                    </div>
+                    <a href = "hobby/who.html">Hobby Project</a>
+                </div>
             </nav>
+
             <h1>👑 Teh Li Peh 👑 ITIS 3135 👑 King Akita 👑</h1>
         </header>
 		<main>
+            <img id = "akita" src = "images/akita-logos.jpeg" alt = "akita-pic">
 			<p id = "centered_p">You can explore through my webpages by clicking on the links above. </p>
 		</main>
 		<footer>

@@ -42,13 +42,12 @@ function polygons(numSides) {
  //   alert("Num is " + numSides);
 //}
 
-
 function getPrompt() {
     let num = parseInt(prompt("Enter a number from 1-10."));
     let numEntered = validateNum(num);
     let result = polygons(numEntered);
 
-    //Ends the getPrompt() after it runs
+    //Ends the getPrompt() after it displays the answer/polygons
     if (!result) {
         return;
     }

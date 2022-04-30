@@ -14,7 +14,7 @@ function displayDateTime() {
     let dayArray = new Array ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun");
     let monthArray = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
     
-    let displayDateTime = "Today is "+ hours + ":" + minutes +  " on "+ dayArray[day] + ", " + date + " " +  monthArray[month] + ", " + year;
+    let displayDateTime = "Today is "+ hours + ":" + minutes +  " on "+ dayArray[day] + " " + date + ", " +  monthArray[month] + ", " + year;
     document.getElementById("date").innerHTML = displayDateTime;
 }
 
@@ -26,7 +26,9 @@ function welcome() {
     document.getElementById("displayMessage").innerHTML = message;
 }
 
+//A simple guessing game using prompt
 function one() {
+    //Generate a random number from 1-10
     let randomNum = Math.floor(Math.random()*10) + 1;
     let guessedNumber = parseInt(prompt("Guess the Correct Number from 1 - 10"));
 
@@ -39,6 +41,7 @@ function one() {
     }
 }
 
+//A simple math question using prompt and if/else 
 function two() {
     let question = parseInt(prompt("Sarah is twice as old as her youngest brother. If the difference between their ages is 15 years. How old is her youngest brother?"));
     
@@ -51,6 +54,7 @@ function two() {
     }
 }
 
+//Calculate average of the 3 numbers entered by the user
 function three() {
     let num1 = prompt("Enter a number");
     let num2 = prompt("Enter another number");
@@ -61,6 +65,8 @@ function three() {
     alert("The average number you have entered is " + avg);
 }
 
+
+//A simple riddle using prompt and if/else 
 function four() {
     let riddlePrompt = prompt("What has a head and a tail, but no body?");
 
@@ -73,6 +79,7 @@ function four() {
     }
 }
 
+//A cool animation I made for the first time
 function five() {
     let string = "Wow, You made it! Feel free to explore more of my webpages.";
     let array = string.split("");
@@ -85,5 +92,7 @@ function five() {
     };
     animate();
 }
+//Source for five():
 //https://codepen.io/LaithHaleem/pen/wzyMBd
+//I did not copy and paste
 //I wanted to try something cool but I needed help
