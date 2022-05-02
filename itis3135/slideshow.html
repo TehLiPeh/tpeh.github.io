@@ -3,14 +3,16 @@
 	<head>
 		<meta charset = "UTF-8">
 		<link href = "styles/default.css" rel = "stylesheet" type = "text/css">
-        <script src = "scripts/calculator.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src = "scripts/slideshow.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
-		<title>Teh Li Peh | ITIS 3135 | Calculator FCC | King Akita</title>
+		<title>Teh Li Peh | ITIS 3135 | Slideshow | King Akita</title>
 	</head>
 	<body>
         <header>
+
             <nav class = "top-nav">
                 <div class = "nav-container">
                         <a href = "index.html">Home</a>
@@ -48,38 +50,25 @@
             </nav>
             <h1>👑 Teh Li Peh 👑 ITIS 3135 👑 King Akita 👑</h1>
         </header>
-		<main>
-			<h2>Calculator</h2>
 
-            
-            <div class = "calculator">
-                <div class = "output">
-                    <div data-previous-operand class = "previous-operand"></div>
-                    <div data-current-operand class = "current-operand"></div>
+		<main>
+            <h2>Slideshow</h2>
+            <div class = "slider-container">
+                <div class = "slider-inner">
+                    <img src = "images/akita-one.jpg" alt = "Image by - manfredrichter" id = "active" class = "akita-img">
+                    <img src = "images/akita-two.jpg" alt = "Image by - RebaSpike" class = "akita-img">
+                    <img src = "images/akita-three.jpg" alt = "Image by - ichimi" class = "akita-img">
+                    <img src = "images/akita-four.jpg" alt = "Image by - christina0chiz" class = "akita-img">
+                    <img src = "images/akita-five.jpg" alt = "Image by - christina0chiz" class = "akita-img">
+                    <img src = "images/akita-six.jpg" alt = "Image by - RebaSpike" class = "akita-img">
                 </div>
-                <div class = "calc-keys">
-                    <button data-operator class = "operator">+</button>
-                    <button data-operator class = "operator">-</button>
-                    <button data-operator class = "operator">*</button>
-                    <button data-operator class = "operator">÷</button>
-                    <button data-keys class = "number-keys">7</button>
-                    <button data-keys class = "number-keys">8</button>
-                    <button data-keys class = "number-keys">9</button>
-                    <button data-keys class = "number-keys">4</button>
-                    <button data-keys class = "number-keys">5</button>
-                    <button data-keys class = "number-keys">6</button>
-                    <button data-keys class = "number-keys">1</button>
-                    <button data-keys class = "number-keys">2</button>
-                    <button data-keys class = "number-keys">3</button>
-                    <button data-keys class = "number-keys">0</button>
-                    <button data-keys id = "calc-decimal">.</button>
-                    <button data-clear id = "clear">AC</button>
-                    <button data-equals class = "equal">=</button>
+                <div class = "slider-buttons">
+                    <button id = "back">Back</button>
+                    <button id = "next">Next</button>
                 </div>
             </div>
-            
-
 		</main>
+
 		<footer>
             <nav>
                 <a class = "a_foot" href = "https://webpages.charlotte.edu/tpeh">🦴 Charlotte.edu 🦴 </a>
@@ -90,7 +79,7 @@
             </nav>
             <p>Made By <a href = "#"></a>Peh Designs &copy;2022</p>
             <div id = "validator">
-                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fcalculatorfcc.html">
+                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fslideshow.html">
                     <img class = "valiPic" src = "images/html_validation.png" alt = "Link to HTML Validator">
                 </a>
                 <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
