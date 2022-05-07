@@ -197,8 +197,10 @@ ol {
 }
 
 h3 {
+    font-family: 'Oswald', sans-serif;
     color: #F7FE72;
     text-align: center;
+    font-size: 20px;
 }
 
 /*form.html*/
@@ -548,6 +550,28 @@ h4 {
     padding: 2px;
     margin: 2px;
     border-radius: 50%;
+}
+
+/*Project Proposal*/
+#red-p {
+    color: red;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#client-info {
+    width: fit-content;
+    background-color: #F7FE72;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+}
+
+#client-info p {
+    color: red;
+    margin: 5px;
 }
 
 /*footer*/

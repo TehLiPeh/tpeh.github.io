@@ -11,7 +11,10 @@ $(document).ready(function () {
     $('.slides-img').on('click', function () {
         var $imgs = $(this).attr('src');
         $('#big-screen').fadeOut(900, function() {
-            $('#big-screen').attr('src', $imgs).fadeIn(900);
+            $('#big-screen').attr('src', $imgs);
+            //$('#big-screen').on('load', function() {
+                $('#big-screen').fadeIn(900);
+            //});
         });
         //evt.preventDefault();
     });

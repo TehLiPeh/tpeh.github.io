@@ -1,0 +1,91 @@
+/*header*/
+.logo {
+    border: solid 2px green;
+    padding: 5px;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+header #top-nav {
+
+    text-align: center;
+}
+
+/*body*/
+.center {
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*home.html*/
+h2 {
+    border: 2px solid black;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-paragraphs {
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*about me*/
+.green-box {
+    border: 2px solid green;
+    width: 40%;
+    height: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/*gallery*/
+.big-img {
+    height: 200px;
+}
+
+.big-img img {
+    border: solid 2px blue;
+}
+
+.big-column {
+    float: left;
+    border: solid 2px red;
+    height: 200px;
+    width: 47%;
+    padding: 15px;
+    margin: 5px;
+}
+
+/*best*/
+
+
+/*contact*/
+
+/*footer*/
+footer {
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+#validator {
+    display: flex;
+    justify-content: center;
+}
