@@ -3,9 +3,11 @@
     <head>
         <meta charset = "UTF-8">
         <link href = "default.css" type = "text/css" rel = "stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-        <title>Teh Li Peh | Client Project</title>
+        <script src = "scripts/offcampus.js"></script>
+        <title>Teh Li Peh | Client Project</title>    
     </head>
     <body>
         <header>
@@ -24,27 +26,31 @@
         </header>
         <main>
             <div class = "container">
-                <h1>Contact Information</h1>
-                <div class = "contact">
-                    <p>My Email: davidkdhphoto@gmail.com</p>
-                    <form>
-                        <label for = "name">Name:</label>
-                        <input type = "text" id = "name">
+                <h1>Off-Campus Photoshoots</h1>
 
-                        <label for = "email">Email:</label>
-                        <input type = "text" id = "email">
+                <div class = "on-gallery">
 
-                        <textarea name = "comments">comments...</textarea>
-
-                        <button>Submit</button>
-                    </form>
+                    <div class = "slider">
+                        <div class = "slider-inner">
+                            <img src = "images/smile-couple-267-400.jpg" alt = "Image by - manfredrichter" id = "active">
+                            <img src = "images/mazda-267-400.jpg" alt = "Image by - RebaSpike">
+                            <img src = "images/red-couple-267-400.jpg" alt = "Image by - ichimi">
+                            <img src = "images/wedding-267-400.jpg" alt = "Image by - christina0chiz">
+                            <img src = "images/white-258-400.jpg" alt = "Image by - christina0chiz">
+                            <img src = "images/two-skate-267-400.jpg" alt = "Image by - christina0chiz">
+                        </div>
+                        <div class = "slider-buttons">
+                            <button id = "back">Back</button>
+                            <button id = "next">Next</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
             <p>Made By <a href = "#"></a>Peh Designs &copy;2022</p>
             <div id = "validator">
-                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fprojects%2Fcontact.html">
+                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fprojects%2Foffcampus.html">
                     <img class = "valiPic" src = "images/html_validation.png" alt = "Link to HTML Validator">
                 </a>
                 <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fprojects%2Faboutme.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">

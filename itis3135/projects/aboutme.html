@@ -2,40 +2,65 @@
 <html lang = "en-us">
     <head>
         <meta charset = "UTF-8">
-        <link href = "default.css" tyoe = "text/css" rel = "stylesheet">
+        <link href = "default.css" type = "text/css" rel = "stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <script src = "scripts/accordion.js"></script>
         <title>Teh Li Peh | Client Project</title>
     </head>
     <body>
         <header>
-            <a href = "#" class = "logo">Logo</a>
-            <h1>Client Project</h1>
+            <a href = "images/logo-copy-re.jpg">
+                <img src = "images/logo-copy-re.jpg" alt = "Logo" id = "logo">
+            </a>
             <nav id = "top-nav">
                 <div>
                     <a href = "home.html">Home</a>
                     <a href = "aboutme.html">About Me</a>
-                    <a href = "gallery.html">Gallery</a>
-                    <a href = "best.html">Best Photos</a>
+                    <a href = "oncampus.html">UNC Charlotte</a>
+                    <a href = "offcampus.html">Off Campus</a>
                     <a href = "contact.html">Contact</a>
                 </div>
             </nav>
         </header>
         <main>
-            <div class = "center">
-                <h2>About Me</h2>
-                <div class = "green-box">
-                    <p>Picture</p>
-                    <img src = "#" alt = "Pic of Me">
+            <div class = "container">
+                <div id = "aboutme">
+                    <div class = "green-box">
+                        <a href = "#">
+                            <img src = "images/skateboard.jpeg" alt = "Pic of Me">
+                        </a>
+                    </div>
+                    <div id = "aboutme-infos">
+                        <div id = "bold">
+                            <p>That is me doing cool tricks with my skateboard.</p>
+                        </div>
+
+                        <div id = "accordion">
+                            <h4>Who am I?</h4>
+                            <p>My name is David Kaw Doh Htoo and I live in Charlotte NC.</p>
+
+                            <h4>My Education</h4>
+                            <p>I am currently a full-time Undergrad student at UNC Charlotte. My major is undecided.</p>
+
+                            <h4>My Work</h4>
+                            <p>On campus, I like to attend sports events and take pictures. I also take phtos of graduation events or any family events.</p>
+
+                            <p id = "call-me">Feel free to contact me for a photoshoot.</p>
+                        </div>
+                    </div>
                 </div>
-                <p class = "info-paragraphs">This is a paragraph about you.</p>
             </div>
         </main>
         <footer>
             <p>Made By <a href = "#"></a>Peh Designs &copy;2022</p>
             <div id = "validator">
-                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fimageswap.html">
+                <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fprojects%2Faboutme.html">
                     <img class = "valiPic" src = "images/html_validation.png" alt = "Link to HTML Validator">
                 </a>
-                <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.charlotte.edu%2Ftpeh%2Fprojects%2Fhome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
                     <img class = "valiPic" src = "images/css_validation.png" alt = "Link to CSS Validator">
                 </a>
             </div>
